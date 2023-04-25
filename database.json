@@ -1,0 +1,57 @@
+{   
+    "users": [
+    {
+      "id": 1,
+      "fullName": "Test User",
+      "email": "test@test.com"
+    }
+  ],
+    "events": [
+      {
+        "id": 1,
+        "userId": 1,
+        "name": "Event Name",
+        "date": "2023-05-10",
+        "location": "Event Location"
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "userId": 1,
+        "userName": "TestUser",
+        "message": "This is a test message.",
+        "thumbsUp": 0,
+        "thumbsDown": 0
+      }
+    ],
+    "articles": [
+      {
+        "id": 1,
+        "userId": 1,
+        "title": "New Article",
+        "synopsis": "This is a new article.",
+        "url": "https://www.google.com",
+        "date": "2023-05-10",
+        "tags": [
+          {
+            "id": 1,
+            "name": "tag1"
+          },
+          {
+            "id": 2,
+            "name": "tag2"
+          }
+        ]
+      }
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "userId": 1,
+        "task": "This is a test task.",
+        "dueDate": "2023-05-02",
+        "complete": false
+      }
+    ]
+  }
